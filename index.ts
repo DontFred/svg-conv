@@ -1,4 +1,4 @@
-import parse, { Node } from "node-html-parser";
+import { parse, Node } from "node-html-parser";
 import { readdir } from "node:fs/promises";
 import fs from "fs-extra";
 import loading from "loading-cli";
